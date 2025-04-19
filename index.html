@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tatiana Iankova | Art Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tatiana Iankova</h1>
+        <p>Art manager | Art curator</p>
+    </header>
+
+    <section class="projects">
+        <!-- Проект 1 -->
+        <div class="project" onclick="openGallery('project1')">
+            <img src="projects/project1/cover.jpg" alt="Выставка Современное искусство">
+            <div class="project-info">
+                <h3>Ultima cena a Volterra</h3>
+                <p>Florence, 2022</p>
+            </div>
+        </div>
+
+        <!-- Проект 2 -->
+        <div class="project" onclick="openGallery('project2')">
+            <img src="projects/project2/cover.jpg" alt="Фестиваль уличного искусства">
+            <div class="project-info">
+                <h3>Opera al Nero</h3>
+                <p>Florence, 2022</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
